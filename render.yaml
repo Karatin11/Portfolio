@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: portfolio
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn portfolio_project.wsgi"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: portfolio_project.settings
+      - key: PYTHON_VERSION
+        value: 3.11.8
