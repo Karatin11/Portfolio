@@ -18,13 +18,8 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL'),
-        conn_max_age=600,
-        ssl_require=True
-    )
+    'default': dj_database_url.config(default=os.environ.get('postgresql://portfolio_db_k0hl_user:btRwuXwfuZ9rLXBRDF1GL6pOtwvgj3dI@dpg-cvoplf15pdvs73a39gd0-a/portfolio_db_k0hl'))
 }
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
