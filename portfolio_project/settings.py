@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-vpx#pijsv*=gh0$spg$l*^%&a$3i8t5x-q#)ukjk94+w^k*37=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['your-app-name.onrender.com']
+ALLOWED_HOSTS = ['portfolio-iekq.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
