@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from .form import ContactForm
 import requests
 
-TELEGRAM_BOT_TOKEN = '7578485055:AAFumaFjYt2fPLzhpheb36Vm9fFHq6EQyNo'
+TELEGRAM_BOT_TOKEN = '7909679143:AAFoYpbSBajeDYognd0gYTNRMSdxyjTRxg0'
 TELEGRAM_CHAT_ID = '7608366780'
 
 def home(request):
